@@ -1,0 +1,49 @@
+.botonUsuario {
+    height: 5rem;
+    margin: 0.5rem;
+    font-size: 3rem;
+    color:#3CB371;
+    font-style: italic;
+    background-color: black;
+}
+
+.otroBoton {
+    height: 2rem;
+    margin: 0.5rem;
+    font-style: italic;
+    color: cyan ;
+    background-color: black;
+}
+
+.texto {
+    color:cyan;
+    font-style: italic;
+    font-size: 20px;
+    background-color: black;
+  }
+
+  .texto_cabecera {
+    color: cyan;
+    font-style: italic;
+    font-size: 25px;
+    background-color: black;
+  }
+  .textoUsuario{
+    color: cyan ;
+    background-color: black;
+    font-style: italic;
+    font-size: 25px;
+    
+  }
+
+
+  body{    
+    height: 100vh;
+    width: 100vw;
+   /* background-image: url("../../../assets/imagenes/fondo.png"); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-attachment: fixed;
+    background-color: black;
+}

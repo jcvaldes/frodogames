@@ -1,0 +1,314 @@
+/*
+------------------
+
+Project:        Casine - Casino and gambling HTML5 Template
+Version:        1.0
+Last change:    20/ 06 /2019
+Primary use:    Casino and gambling. 
+Author:         Ingenious_team
+------------------
+------------------ */
+
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+    
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #banner-part {
+    height: 507px;
+}
+ .banner-new {
+    top: 155px;
+    width: 634px;
+    margin-left: -78px;
+}
+    .banner-top:after {
+    height: 105%;
+    left: -180px;
+    top: 70px;
+            width: 64%;
+}
+    .banner-center h1 {
+    font-size: 40px;
+}
+    .banner-center {
+    margin-top: 100%;
+}
+    .feature-left:after {
+    height: 133%;
+    width: 168%;
+    right: 53px;
+        top: -20px;
+}
+    .demo-part{
+    padding-top: 0px;
+}
+    .header p {
+    font-size: 16px;
+}
+    #theme-part .nxt {
+    right: -22px;
+}
+#theme-part .pre {
+    left: -27px;
+    }
+     .casino-btn a,
+    .banner-btn a {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){ 
+  
+ .banner-new {
+    width: auto;
+}
+    .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+    .menu .navbar-nav {
+    padding-left: 28px;
+}
+    .navbar-nav li a {
+    font-size: 14px;
+}
+    nav .purchase {
+        font-size: 14px;
+    width: 97px;
+    padding: 11px 11px;
+}
+    nav ul li {
+    margin: 0 7px;
+}
+    .navbar-brand img,
+    .logo-top-w img {
+    height: 45px;
+    width: auto;
+}
+    .banner-center h1 {
+    font-size: 30px;
+}
+    .banner-center {
+    margin-top: 114%;
+    transform: translateY(-50%);
+}
+    .banner-top:after {
+    width: 86%;
+    left: -205px;
+}
+    .banner-center h4 {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+    .feature-left:after {
+    height: 189%;
+    width: 223%;
+    top: -43px;
+}
+    #features-part .demo-pera {
+     width: 100%; 
+     margin-left: 0%; 
+}
+     .casino-btn a,
+    .banner-btn a {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+    #theme-part .pre {
+    left: -9px;
+}
+    #theme-part .nxt {
+            right: -14px;
+    }
+
+}
+@media only screen and (max-width: 767px){
+     .navbar-brand img,
+    .logo-top-w img {
+    height: 45px;
+    width: auto;
+}
+   .navcss .logo-color {
+    display: none;
+}
+    .logo-top-w {
+    display: none;
+}
+    .navcss .logo-white1{
+        display: block;
+    }
+    .fa-bars{
+        color: #fff;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        padding: 11px 12px;
+    }
+    .menu .navbar-nav {
+    padding-left: 0px;
+}
+    .navbar-nav li a{
+        padding: 10px 0;
+    }
+    .navbar-toggler,
+    button{
+        outline: 0;
+    }
+    .banner-center h1 {
+    font-size: 38px;
+}
+    .demo-part {
+     padding-top: 0px; 
+}
+    .banner-center {
+    margin-top: 48%;
+        text-align: center;
+}
+    .feature-icon ul li:last-child,
+    .feature-left,
+    .banner-new {
+        display: none;
+    }
+    .banner-top:after {
+    display: none;
+}
+    .header h3 {
+    font-size: 27px;
+}
+    .header p {
+    font-size: 15px;
+}
+    .demo-pera {
+     width: auto; 
+     margin-left: 0%; 
+}
+    #theme-part .nxt{
+        right: -28px;
+    }
+    #theme-part .pre {
+        left: -30px;
+    }
+    #theme-part .theme-item {
+     margin-right: 0px; 
+}
+    #footer-part a {
+    font-size: 16px;
+}
+    .full_nav {
+   background: #150035;
+    box-shadow: 0 0px 5px 0px rgba(0, 0, 0, .3);
+    transition: all ease .9s;
+}
+    .logo-color{
+        display: none;
+    }
+    .logo-white1{
+        display: block;
+    }
+    .navbar-nav li a{
+        color: #fff;
+    }
+    .color-1 h4 {
+    padding-top: 10px;
+        padding-bottom: 10px;
+}
+     .casino-btn a,
+    .banner-btn a {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+    .features-part {
+    margin-top: 20px;
+}
+    
+}
+@media (min-width: 381px) and (max-width: 575px){ 
+    .feature-icon ul li {
+    float: none;
+}
+    .header h3 {
+    font-size: 21px;
+}
+      #theme-part .nxt{
+        right: 8px;
+    }
+    #theme-part .pre {
+        left: 0px;
+    }
+     .banner-top:after {
+    height: 415px;
+    width: 80%;
+    left: 73px;
+    top: -333px;
+}
+    .banner-center {
+    margin-top: 70%;
+}
+    .banner-center h4{
+        color: #484270;
+        font-size: 24px;
+    }
+    .header p {
+    font-size: 14px;
+}
+    .first-row, .second-row, .third-row, .fourth-row {
+    margin-bottom: 0px;
+}
+    #theme-part .nxt {
+    right: -17px;
+}
+    #theme-part .pre {
+    left: -10px;
+}
+}
+@media only screen and (max-width: 394px) {
+   
+    .feature-icon ul li {
+    float: none;
+}
+    .header h3 {
+    font-size: 21px;
+}
+      #theme-part .nxt{
+        right: 8px;
+    }
+    #theme-part .pre {
+        left: 0px;
+    }
+     .banner-top:after {
+    height: 415px;
+    width: 200px;
+    left: 65%;
+         transform: translateX(-50%);
+    top: -340px;
+}
+    .banner-center {
+    margin-top: 85%;
+}
+    .banner-center h4{
+        font-size: 24px;
+    }
+    .header p {
+    font-size: 14px;
+}
+    .first-row, .second-row, .third-row, .fourth-row {
+    margin-bottom: 0px;
+}
+    .demo-section{
+        margin-bottom: 30px;
+    }
+    #theme-part .nxt {
+    right: -13px;
+}
+    #theme-part .pre {
+    left: -10px;
+}
+    .section {
+    margin-top: 50px;
+}
+
+    .features-part {
+    padding: 50px 0;
+}
+    }

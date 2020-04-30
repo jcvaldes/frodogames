@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1116px) {
+    div.left{
+        width: 18vw;
+        height: 80vh;
+    }
+    div.middle{
+        width: 63vw;
+        height: 80vh;
+    }
+    div.right{
+        width: 18vw;
+        height: 80vh;
+    }
+    
+    div.bottom{
+        width: 100vw;
+        height: 20vh;
+    }
+}
+
+@media only screen and (min-width: 1117px) {
+    div.left{
+        width: 21vw;
+        height: 80vh;
+    }
+    div.middle{
+        width: 58vw;
+        height: 80vh;
+    }
+    div.right{
+        width: 21vw;
+        height: 80vh;
+    }
+    
+    div.bottom{
+        width: 100vw;
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 849px) {
+    div.left{
+        width: 9vw; 
+        height: 80vh;
+    } 
+    div.middle{
+        width: 82vw;
+        height: 80vh;
+    }
+    div.right{
+        width: 9vw;
+        height: 80vh;
+    }
+    
+    div.bottom{
+        width: 100vw;
+        height: 20vh;
+    }
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{    
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../../assets/imagenes/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-attachment: fixed;
+    background-color: rgb(66, 66, 66);
+}
+
+div{
+    float: left;
+    
+}

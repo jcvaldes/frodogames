@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+
+<!-- Preloader Start -->
+
+<div id="preloader" *ngIf="loading" >
+  <div id="loading-center">
+    <div id="loading-center-absolute">
+      <img src="assets/images/icon/preloader.svg" alt="">
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>

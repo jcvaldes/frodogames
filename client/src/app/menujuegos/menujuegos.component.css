@@ -1,0 +1,103 @@
+
+@media only screen and (max-width: 1231px) {
+    div.ingreso{
+        padding-top: 4%;
+        width: 40%;
+        right: 2%;
+    }
+    div.titulo{
+        top: 20%;
+    }
+    
+    
+}
+
+
+div{
+    display: inline-block
+}
+
+div.head{
+    position: relative;
+    width: 100%;
+    height: 15%;
+}
+
+div.titulo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 250%;
+    padding-top: 10%;
+    text-align: center;
+    color: blue ;
+    font-family: "Arial";
+    
+}
+
+
+.banner {
+    height: 45%;
+    width: 120%;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 2.3%;
+    display: flex;
+    flex-direction: row; 
+    background-color:cyan  ;
+    border-radius: 2%;
+    align-items: center;
+}
+.banner .item {
+    flex: 1 1 auto;
+    width: 40%;
+    height: 95%;
+    transition: width 0.7s ease-out; 
+    border-radius: 5%;
+    background: rgba(0, 255, 38, 0.639);
+    margin: 2px;
+    outline: none;
+}
+.banner .first {
+    
+    background:black   url("../../assets/imagenes/matem.png") center center no-repeat; 
+    border-style: solid white 40px;
+}
+.banner .first:hover {
+    width: 90%; 
+    cursor: pointer;
+}
+.banner .second {
+    background:   black url("../../assets/imagenes/secret.jpg") center center no-repeat; 
+}
+.banner .second:hover {
+    width: 90%; 
+    cursor: pointe0r;
+}
+.banner .third {
+    background: black  url("../../assets/imagenes/piedrapapeltijera.png") center center no-repeat; 
+}
+.banner .third:hover {
+    width: 90%; 
+    cursor: pointer;
+}
+.banner .fourth {
+    background:  black  url("../../assets/imagenes/primos.jpg") center center no-repeat ; 
+}
+.banner .fourth:hover {
+    width: 90%; 
+    cursor: pointer;
+}
+
+.banner .cinco:hover {
+    width: 90%; 
+    cursor: pointer;
+}
+.banner .cinco {
+    background:  black  url("../../assets/imagenes/anagrama.png") center center no-repeat ; 
+}
+
+h2.titulojuego {
+    text-align: center;
+    color:cyan  ;
+}

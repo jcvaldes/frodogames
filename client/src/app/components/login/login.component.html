@@ -1,0 +1,57 @@
+<section class="about-page back-light">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-6" style="align-self: flex-end;">
+        <div class="about-video">
+          <img src="assets/images/about-video-image.jpg" class="img-fluid" alt="img">
+          <div class="youtube_video">
+            <a class="bla-1 play-video-button" href="https://www.youtube.com/watch?v=yRyC7WJ3YIk">
+              <i class="fa fa-play"></i>
+
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 contact-about">
+        <div class="heading">
+          <h2>INICIA SESIÓN</h2>
+          <img src="assets/images/heading-border-effect.png" class="img-fluid" alt="effect">
+        </div>
+        <div class="form-login">
+          <form #f="ngForm" autocomplete="off" class="mt-3" (ngSubmit)="ingresar(f)">
+            <div class="row">
+              <div class="col-12 mb-4">
+                <mat-form-field  appearance="outline">
+                  <mat-label>Usuario</mat-label>
+                  <input matInput ngModel name="username" type="text" required>
+                  <mat-icon matSuffix>account_circle</mat-icon>
+                  <mat-error>requerido</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="col-12 mb-4">
+                <mat-form-field appearance="outline">
+                  <mat-label>Password</mat-label>
+                  <input matInput ngModel name="password" type="password" required>
+                  <mat-icon matSuffix>vpn_key</mat-icon>
+                  <mat-error>requerido</mat-error>
+                </mat-form-field>
+              </div>
+            </div>
+            <div class="text-center">
+              <button mat-raised-button  color="accent" class="mr-2" [disabled]="f.invalid" type="submit">
+                <mat-icon>lock_open</mat-icon>
+                Iniciar
+              </button> 
+                
+            </div>
+          </form>
+        </div>
+    
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
+

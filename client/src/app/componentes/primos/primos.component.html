@@ -1,0 +1,63 @@
+<body [ngStyle]="{'background-color': 'black'}">
+
+    <div style="text-align: center" class ="texto_cabecera">
+       
+        <br>
+        Encontrar todos los numeros primos
+        <br>
+        Los errores se penalizan con 3 segundos
+        <br>
+    </div>
+    <!--
+    <h1 class="mat-display-1" class ="texto_puntos"> Encontrar todos los numeros primos </h1>
+        Los errores se penalizan con 3 segundos
+    <br>
+    --> 
+
+    <div style="text-align: center">
+        <button mat-raised-button (click)="primos.presion(0,0)" class="casilla" [ngStyle]="{'background-color' : primos.estadoBotones[0][0] }">{{primos.posiciones[0][0]}}</button>
+        <button mat-raised-button (click)="primos.presion(0,1)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[0][1] }" >{{primos.posiciones[0][1]}}</button>
+        <button mat-raised-button (click)="primos.presion(0,2)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[0][2] }" >{{primos.posiciones[0][2]}}</button>
+        <button mat-raised-button (click)="primos.presion(0,3)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[0][3] }" >{{primos.posiciones[0][3]}}</button>
+        <button mat-raised-button (click)="primos.presion(0,4)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[0][4] }" > {{primos.posiciones[0][4]}}</button>
+        <br>
+        <button mat-raised-button (click)="primos.presion(1,0)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[1][0] }">{{primos.posiciones[1][0]}}</button>
+        <button mat-raised-button (click)="primos.presion(1,1)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[1][1] }">{{primos.posiciones[1][1]}}</button>
+        <button mat-raised-button (click)="primos.presion(1,2)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[1][2] }">{{primos.posiciones[1][2]}}</button>
+        <button mat-raised-button (click)="primos.presion(1,3)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[1][3] }">{{primos.posiciones[1][3]}}</button>
+        <button mat-raised-button (click)="primos.presion(1,4)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[1][4] }">{{primos.posiciones[1][4]}}</button>
+        <br>
+        <button mat-raised-button (click)="primos.presion(2,0)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[2][0] }">{{primos.posiciones[2][0]}}</button>
+        <button mat-raised-button (click)="primos.presion(2,1)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[2][1] }">{{primos.posiciones[2][1]}}</button>
+        <button mat-raised-button (click)="primos.presion(2,2)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[2][2] }">{{primos.posiciones[2][2]}}</button>
+        <button mat-raised-button (click)="primos.presion(2,3)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[2][3] }">{{primos.posiciones[2][3]}}</button>
+        <button mat-raised-button (click)="primos.presion(2,4)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[2][4] }">{{primos.posiciones[2][4]}}</button>
+        <br>
+        <button mat-raised-button (click)="primos.presion(3,0)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[3][0] }" >{{primos.posiciones[3][0]}}</button>
+        <button mat-raised-button (click)="primos.presion(3,1)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[3][1] }">{{primos.posiciones[3][1]}}</button>
+        <button mat-raised-button (click)="primos.presion(3,2)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[3][2] }">{{primos.posiciones[3][2]}}</button>
+        <button mat-raised-button (click)="primos.presion(3,3)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[3][3] }">{{primos.posiciones[3][3]}}</button>
+        <button mat-raised-button (click)="primos.presion(3,4)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[3][4] }">{{primos.posiciones[3][4]}}</button>
+        <br>
+        <button mat-raised-button (click)="primos.presion(4,0)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[4][0] }">{{primos.posiciones[4][0]}}</button>
+        <button mat-raised-button (click)="primos.presion(4,1)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[4][1] }">{{primos.posiciones[4][1]}}</button>
+        <button mat-raised-button (click)="primos.presion(4,2)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[4][2] }">{{primos.posiciones[4][2]}}</button>
+        <button mat-raised-button (click)="primos.presion(4,3)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[4][3] }">{{primos.posiciones[4][3]}}</button>
+        <button mat-raised-button (click)="primos.presion(4,4)" class="casilla" [ngStyle]="{'background-color': primos.estadoBotones[4][4] }">{{primos.posiciones[4][4]}}</button>
+    </div>
+    <br>
+
+
+
+    <div style="text-align: center" class ="texto_puntos">
+        Te quedan {{primos.totalPrimos}} numeros primos
+        <br>
+        Tiempo {{primos.reloj}} - Nivel {{primos.nivel}}
+        <br>
+        Puntos: {{primos.puntos}}
+        <br>
+        Mejor Puntuacion: {{primos.maximo_puntaje}}
+    </div>
+    <br>
+
+</body>

@@ -1,0 +1,991 @@
+/*
+------------------
+
+Project:        Casine - Casino and gambling HTML5 Template
+Version:        1.0
+Last change:    20/ 06 /2019
+Primary use:    Casino and gambling. 
+Author:         Ingenious_team
+------------------
+------------------ */
+@import url('https://fonts.googleapis.com/css?family=Anton:300,400,600,800|Nunito:300,400,600,800');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/*====================
+navbar-part start
+=====================  */
+.navcss .logo-white {
+    opacity: 1;
+}
+
+.logo-white {
+    opacity: 0;
+}
+
+.logo-color {
+    opacity: 1;
+}
+
+.navcss .logo-color {
+    opacity: 0;
+}
+
+.logo-top-w {
+    position: absolute;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: all ease .9s;
+    background: transparent;
+}
+
+.logo-white1 {
+    display: none;
+}
+
+.navcss {
+    background: -webkit-linear-gradient(to bottom, rgba(25, 0, 64, 1) 0%, rgba(38, 8, 82, 1) 100%) !important;
+    background: -o-linear-gradient(to bottom, rgba(25, 0, 64, 1) 0%, rgba(38, 8, 82, 1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(25, 0, 64, 1) 0%, rgba(38, 8, 82, 1) 100%);
+    background: linear-gradient(to bottom, rgba(25, 0, 64, 1) 0%, rgba(38, 8, 82, 1) 100%);
+    box-shadow: 0 0px 5px 0px rgba(0, 0, 0, .3);
+    transition: all ease .9s;
+}
+
+.posi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 25px;
+}
+nav ul li {
+    margin: 0 13px;
+}
+
+.navbar-nav li a {
+        font-size: 18px;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Nunito";
+    color: #fff;
+    text-transform: capitalize;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+nav ul li.color-w a {
+    color: #fff;
+}
+
+.navbar-nav li a:hover {
+    color: #e8a004;
+}
+
+.navcss li a {
+    color: #fff;
+}
+
+.navcss li a:hover,
+nav ul li.color-w a:hover {
+    color: #e8a004;
+}
+
+.nav-sign {
+    margin-top: 16px;
+}
+
+nav .purchase {
+    background: -webkit-linear-gradient(to left, #484270 0%, #9c96c3 100%);
+    background: -o-linear-gradient(to left, #484270 0%, #9c96c3 100%);
+    background: -moz-linear-gradient(to left, #484270 0%, #9c96c3 100%);
+    background: linear-gradient(to left, #484270 0%, #9c96c3 100%);
+    outline: 0;
+    text-transform: capitalize;
+    border: 0 none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 130px;
+    outline: 0 none;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+    box-shadow: 0px 0px 40px 4px rgba(60, 33, 155, .25);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(60, 33, 155, .25);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(60, 33, 155, .25);
+    -o-box-shadow: 0px 0px 40px 4px rgba(60, 33, 155, .25);
+    transform: translateX(-50%) translateY(-0%);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+nav .purchase:hover {
+    background: -webkit-linear-gradient(to right, #484270 0%, #9c96c3 100%);
+    background: -o-linear-gradient(to right, #484270 0%, #9c96c3 100%);
+    background: -moz-linear-gradient(to right, #484270 0%, #9c96c3 100%);
+    background: linear-gradient(to right, #484270 0%, #9c96c3 100%);
+}
+
+.nav-bg {
+    position: fixed;
+    background: #e0eeff;
+    width: 100%;
+    z-index: 9999;
+    padding: 20px;
+    top: 0;
+}
+
+/*====================
+navbar-part end
+=====================  */
+.casino-btn a {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: top;
+    text-align: center;
+    font-family: "Anton";
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #fefefe;
+    font-weight: 400;
+    padding: 13px 30px;
+    border-radius: 35px;
+    text-transform: capitalize;
+    -webkit-transition: all ease 0.9s;
+    -moz-transition: all ease 0.9s;
+    -ms-transition: all ease 0.9s;
+    -o-transition: all ease 0.9s;
+    transition: all ease 0.9s;
+    text-shadow: 5px 4px 0px rgba(0, 0, 0, .1);
+    background: linear-gradient(to bottom, #ffd679 30%, #f7ac03 70%);
+    filter: drop-shadow(0 0px 20px rgba(101, 40, 193, 0.5));
+    box-shadow: 0px 0px 2px 1px rgba(247, 172, 4, 0.8);
+
+}
+
+.casino-btn a:hover {
+    background: linear-gradient(to bottom, #e673cf 10%, #9a368a 90%);
+    box-shadow: 0px 0px 3px 1px rgba(152, 51, 134, 0.4);
+    text-shadow: 5px 3px 0px #943184;
+    filter: drop-shadow(0 0px 20px rgba(152, 51, 134, 0.6));
+}
+
+.run-txt .casino-btn a:hover,
+.run-txt .casino-btn a {
+    filter: none;
+}
+/*====================
+banner-part start
+=====================  */
+
+#banner-part {
+    background: url(../images/banner-background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 470px;
+    position: relative;
+    z-index: 0;
+}
+
+.banner-top,
+.banner-new-text {
+    position: relative;
+}
+
+.banner-center p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Nunito";
+    cursor: auto;
+    z-index: 999;
+}
+
+.banner-center h1 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 48px;
+    font-weight: 400;
+    font-family: "Anton";
+    background: -webkit-linear-gradient(#fcb503 46%, #e5881b 54%, #fcb11a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 99;
+}
+.banner-center h1:before {
+    position: absolute;
+    content: 'Casino & Gambling';
+    text-shadow: 21px 13px 2px #2c0b49;
+    filter: drop-shadow(0 0 40px #68248c);
+        left: -19px;
+    z-index: -99;
+    top: 19px;
+}
+.banner-center h4 {
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: "Nunito";
+    color: #fff;
+    cursor: auto;
+}
+
+.banner-top:after {
+    position: absolute;
+    content: '';
+    background: url(../images/banner-mobile-image.png) no-repeat center;
+    height: 139%;
+    width: 50%;
+    left: -225px;
+    top: 10px;
+    z-index: -1;
+}
+
+.banner-center {
+    margin-top: 70%;
+    transform: translateY(-50%);
+}
+
+.banner-new {
+    position: absolute;
+    top: 90px;
+    height: 520px;
+    width: 710px;
+    z-index: -9;
+    margin-left: -40px;
+}
+
+.banner-btn {
+    margin-top: 30px;
+}
+
+.banner-btn a {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: top;
+    text-align: center;
+    font-family: "Anton";
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #fefefe;
+    font-weight: 400;
+    padding: 13px 30px;
+    border-radius: 35px;
+    text-transform: capitalize;
+    -webkit-transition: all ease 0.9s;
+    -moz-transition: all ease 0.9s;
+    -ms-transition: all ease 0.9s;
+    -o-transition: all ease 0.9s;
+    transition: all ease 0.9s;
+    text-shadow: 5px 4px 0px rgba(0, 0, 0, .1);
+    background: linear-gradient(to bottom, #ffd679 30%, #f7ac03 70%);
+    filter: drop-shadow(0 0px 20px rgba(101, 40, 193, 0.5));
+    box-shadow: 0px 0px 2px 1px rgba(247, 172, 4, 0.8);
+}
+.banner-btn a:hover {
+    background: linear-gradient(to bottom, #e673cf 10%, #9a368a 90%);
+    box-shadow: 0px 0px 3px 1px rgba(152, 51, 134, 0.4);
+    text-shadow: 5px 3px 0px #943184;
+    filter: drop-shadow(0 0px 20px rgba(152, 51, 134, 0.6));
+}
+/*====================
+banner-part end
+=====================  */
+
+/*====================
+Demo-Part Start
+=====================  */
+.demo-part {
+    padding-top: 30px;
+}
+
+.demo-pera {
+    width: 55%;
+    margin-left: 24%;
+}
+
+.demo-section h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+.color-1 h4 {
+    background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+    -webkit-background-clip: text;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+/*====================
+Demo-Part End
+=====================  */
+
+/*====================
+Features-part start
+=====================  */
+.features-part {
+    background: #150035;
+    padding: 80px 0;
+    margin-top: 40px;
+    position: relative;
+}
+
+.feature-icon ul li {
+    float: left;
+}
+
+.feature-left {
+    position: relative;
+}
+
+.feature-left:after {
+    position: absolute;
+    content: '';
+    background: url(../images/device-image.png) no-repeat;
+    height: 120%;
+    width: 150%;
+    right: 0px;
+    top: 0px;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+    margin-bottom: 30px;
+}
+
+#demo-part .theme-img {
+    position: relative;
+}
+
+#demo-part .theme-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+
+}
+
+#demo-part .theme-item:hover .theme-details {
+    opacity: 1;
+    width: 100%;
+}
+
+#demo-part .theme-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+#demo-part .theme-details p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 11px;
+    line-height: 24px;
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+#demo-part .theme-details i {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #000000;
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+#demo-part .theme-item:hover .theme-details p,
+#demo-part .theme-item:hover .theme-details i {
+    opacity: 1;
+}
+
+/*====================
+Features-part End
+=====================  */
+
+/*====================
+theme-part start
+=====================  */
+.section {
+    margin-top: 80px;
+}
+
+.header h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+.color-1 h3 {
+    font-size: 36px;
+    position: relative;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(#ffd370 0%, #f7ad07 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.header p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 20px;
+    color: #bbbbbb;
+    margin-bottom: 60px;
+}
+#theme-part .theme-img {
+    position: relative;
+}
+
+#theme-part .theme-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+
+}
+
+#theme-part .theme-item:hover .theme-details {
+    opacity: 1;
+    width: 100%;
+}
+
+#theme-part .theme-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+#theme-part .theme-details p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 11px;
+    line-height: 24px;
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+#theme-part .theme-details i {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #000000;
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+#theme-part .theme-item:hover .theme-details p,
+#theme-part .theme-item:hover .theme-details i {
+    opacity: 1;
+}
+
+#theme-part .pre {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute;
+    left: -75px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    display: none;
+    -webkit-transition: ease all .5s;
+    -moz-transition: ease all .5s;
+    -o-transition: ease all .5s;
+    transition: ease all .5s;
+    margin: 10px 0;
+    background: -webkit-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%) !important;
+    background: -o-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    background: linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    z-index: 99;
+    filter: drop-shadow(0 0px 10px rgba(254, 215, 125, 0.2));
+}
+
+#theme-part .nxt {
+    margin: 10px 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    position: absolute;
+    right: -75px;
+    top: 50%;
+    z-index: 99;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%) !important;
+    background: -o-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    background: linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    z-index: 99;
+    filter: drop-shadow(0 0px 10px rgba(254, 215, 125, 0.2));
+}
+
+#theme-part .pre:hover,
+#theme-part .nxt:hover {
+    background: -webkit-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%) !important;
+    background: -o-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    background: linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -o-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    filter: drop-shadow(0 0px 10px rgba(223, 103, 198, 0.3));
+}
+
+#theme-part .button a {
+    font-family: 'Baloo', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400px;
+    display: inline-block;
+    padding: 13px 25px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+    border: 0px solid #9c96c3;
+    background: -webkit-linear-gradient(to right, #484270 0%, #9c96c3 100%);
+    background: -o-linear-gradient(to right, #484270 0%, #9c96c3 100%);
+    background: -moz-linear-gradient(to right, #484270 0%, #9c96c3 100%);
+    background: linear-gradient(to right, #484270 0%, #9c96c3 100%);
+}
+
+#theme-part .button a:hover {
+    border: 0px solid #9c96c3;
+    background: -webkit-linear-gradient(to left, #484270 0%, #9c96c3 100%);
+    background: -o-linear-gradient(to left, #484270 0%, #9c96c3 100%);
+    background: -moz-linear-gradient(to left, #484270 0%, #9c96c3 100%);
+    background: linear-gradient(to left, #484270 0%, #9c96c3 100%);
+    box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .2);
+    -o-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .2);
+    color: #ffffff;
+}
+
+/*====================
+theme-part end
+=====================  */
+
+/*====================
+footer-part start
+=====================  */
+
+#back-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: -webkit-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%) !important;
+    background: -o-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    background: linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    display: none;
+    -webkit-transition: ease all .5s;
+    -moz-transition: ease all .5s;
+    -o-transition: ease all .5s;
+    transition: ease all .5s;
+    z-index: 999;
+    padding: 12px;
+    text-align: center;
+    filter: drop-shadow(0 0px 10px rgba(254, 215, 125, 0.2));
+}
+
+#back-top-btn i {
+    position: relative;
+    color: #fff;
+    -webkit-transition: ease all .5s;
+    -moz-transition: ease all .5s;
+    -o-transition: ease all .5s;
+    transition: ease all .5s;
+}
+
+#back-top-btn:hover {
+    background: -webkit-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%) !important;
+    background: -o-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    background: linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -o-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    filter: drop-shadow(0 0px 10px rgba(223, 103, 198, 0.3));
+}
+
+
+#footer-part {
+    background: #0b001b;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+#footer-part p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 6px;
+    line-height: 24px;
+}
+
+#footer-part p span {
+   font-family: 'Anton', sans-serif;
+}
+
+#footer-part a {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#footer-part a i {
+    margin-left: 14px;
+}
+
+body{
+        background: #0b001b;
+}
+.demo-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    content: '';
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+.demo-section{
+    position: relative;
+}
+.demo-section:hover .overlay i {
+    opacity: 1;
+}
+.demo-section:hover .overlay {
+    opacity: 1;
+    height: 100%;
+}
+.demo-section .overlay i {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ffd679 30%, #f7ac03 70%);
+    filter: drop-shadow(0 0px 20px rgba(101, 40, 193, 0.5));
+    box-shadow: 0px 0px 2px 1px rgba(247, 172, 4, 0.8);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 66px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+/*    border: 4px solid #ffffff;*/
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+/* === BACK TO TOP CSS == */
+
+#back-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: -webkit-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%) !important;
+    background: -o-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    background: linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .2);
+    display: none;
+    -webkit-transition: ease all .5s;
+    -moz-transition: ease all .5s;
+    -o-transition: ease all .5s;
+    transition: ease all .5s;
+    z-index: 999;
+    padding: 12px;
+    text-align: center;
+    filter: drop-shadow(0 0px 10px rgba(254, 215, 125, 0.2));
+}
+
+#back-top-btn i {
+    position: relative;
+    color: #fff;
+    -webkit-transition: ease all .5s;
+    -moz-transition: ease all .5s;
+    -o-transition: ease all .5s;
+    transition: ease all .5s;
+}
+
+#back-top-btn:hover {
+    background: -webkit-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%) !important;
+    background: -o-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    background: linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+    box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    -o-box-shadow: 0px 0px 40px 4px rgba(0, 0, 0, .3);
+    filter: drop-shadow(0 0px 10px rgba(223, 103, 198, 0.3));
+}
+/*
+==========================================
+    Preloader
+==========================================
+*/
+
+.preloader {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: radial-gradient(#150035, #0b001b);
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+.loader {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 175px;
+    height: 100px;
+}
+
+.loader span {
+    display: block;
+    background: rgba(247, 172, 4, 1);
+    width: 7px;
+    height: 10%;
+    border-radius: 14px;
+    margin-right: 5px;
+    float: left;
+    margin-top: 25%;
+}
+
+.loader span:last-child {
+    margin-right: 0px;
+}
+
+.loader span:nth-child(1) {
+    animation: load 2.5s 1.4s infinite linear;
+}
+
+.loader span:nth-child(2) {
+    animation: load 2.5s 1.2s infinite linear;
+}
+
+.loader span:nth-child(3) {
+    animation: load 2.5s 1s infinite linear;
+}
+
+.loader span:nth-child(4) {
+    animation: load 2.5s 0.8s infinite linear;
+}
+
+.loader span:nth-child(5) {
+    animation: load 2.5s 0.6s infinite linear;
+}
+
+.loader span:nth-child(6) {
+    animation: load 2.5s 0.4s infinite linear;
+}
+
+.loader span:nth-child(7) {
+    animation: load 2.5s 0.2s infinite linear;
+}
+
+.loader span:nth-child(8) {
+    animation: load 2.5s 0s infinite linear;
+}
+
+.loader span:nth-child(9) {
+    animation: load 2.5s 0.2s infinite linear;
+}
+
+.loader span:nth-child(10) {
+    animation: load 2.5s 0.4s infinite linear;
+}
+
+.loader span:nth-child(11) {
+    animation: load 2.5s 0.6s infinite linear;
+}
+
+.loader span:nth-child(12) {
+    animation: load 2.5s 0.8s infinite linear;
+}
+
+.loader span:nth-child(13) {
+    animation: load 2.5s 1s infinite linear;
+}
+
+.loader span:nth-child(14) {
+    animation: load 2.5s 1.2s infinite linear;
+}
+
+.loader span:nth-child(15) {
+    animation: load 2.5s 1.4s infinite linear;
+}
+
+@keyframes load {
+    0% {
+        background: rgba(247, 172, 4, 1);
+        margin-top: 25%;
+        height: 10%;
+    }
+
+    50% {
+        background: linear-gradient(to bottom, rgba(223, 103, 198, 1) 0%, rgba(152, 51, 134, 1) 100%);
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    100% {
+        background: linear-gradient(to bottom, rgba(254, 215, 125, 1) 0%, rgba(247, 172, 4, 1) 100%);
+        height: 10%;
+        margin-top: 25%;
+    }
+}
+/*====================
+footer-part end
+=====================  */

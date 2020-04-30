@@ -1,0 +1,29 @@
+label.control-label {
+  font-weight: bold;
+  color: gray;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+button:focus {
+  outline: 1px dotted;
+  outline: 0px auto -webkit-focus-ring-color;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.form-login {
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+}

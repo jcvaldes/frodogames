@@ -1,0 +1,36 @@
+<body [ngStyle]="{'background-color': 'black'}">
+    <br>
+    <br>
+    <div style="text-align: center" class = "texto_cabecera">
+       <h2 class = "texto_cabecera"> Piedra, papel o tijera </h2>
+        <br>
+        <h2 class = "texto_cabecera"> Escoge una de las imagenes </h2>
+        <br>
+    </div>
+    <div style="text-align: center">
+    
+        <button mat-button (click)="ppt.clickPapel()">
+            <img src="../../../assets/imagenes/papel.jpg" name = "papel"  height="tamImagenes" width="tamImagenes">
+        </button>
+
+        <button mat-button (click)="ppt.clickPiedra()">
+            <img src="../../../assets/imagenes/piedra.jpg" name = "piedra"  height="tamImagenes" width="tamImagenes">
+        </button>
+
+        <button mat-button (click)="ppt.clickTijera()">
+            <img src="../../../assets/imagenes/tijera.jpg" name = "tijera" height="tamImagenes" width="tamImagenes">
+        </button>
+        
+    </div>
+    <br>
+    <div style="text-align: center" class = "texto">
+        Resultado parcial: {{ppt.resultadoParcial}}
+        <br>
+        Puntos humano :{{ ppt.puntajeHumano}}
+        <br>
+        Puntos compu: {{ppt.puntajeCompu}} - La compu eligio: {{ppt.mostrarSeleccionado}}
+        <br>
+        {{ppt.resultadoFinal}}
+    </div>
+
+</body>

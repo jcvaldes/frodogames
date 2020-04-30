@@ -1,0 +1,31 @@
+<body [ngStyle]="{'background-color': 'black'}">
+  <br>
+  <br>
+  <div style="text-align: center" class = "texto_cabecera">
+    Anagramas - Encontrá la palabra
+  </div>
+  <br>
+  <div style="text-align: center">
+      <button mat-button name = "palabraDesordenada" class ="botonUsuario" disabled >
+          {{anagrama.palabraDesordenada}}
+      </button>
+      <br>
+      <input type = "text" name ="ingresaUsuario" class ="texto" [(ngModel)] = "anagrama.palabraIngresada"/>
+      <br> <br> 
+      <button mat-button class ="botonUsuario" (click)= "anagrama.comparar()" >
+              Enviar
+      </button>
+      <br>
+      <button mat-button class ="botonUsuario"  (click)= "anagrama.finalizar()" >
+              Finalizar
+      </button>
+
+      <div style="text-align: center" class = "texto">
+          <br>
+          {{anagrama.resultado + " intento: " + anagrama.intentos}}
+          <br>
+          Puntos {{anagrama.puntos}}
+      </div>
+  </div>
+
+</body>

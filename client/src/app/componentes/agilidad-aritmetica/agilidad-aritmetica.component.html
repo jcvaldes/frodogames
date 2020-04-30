@@ -1,0 +1,98 @@
+
+
+<body style="background-color:rgb(0, 0, 0);">
+
+   
+
+    <br>
+    <br>
+    <div style="text-align: center" class = "texto_cabecera">
+        Completa la expresión
+    </div>
+    <br>
+    <div style="text-align: center">
+        <button mat-button color="primary" class ="botonUsuario" disabled>
+            {{nuevoJuego.num1}}
+        </button>
+        <button mat-button color="primary" class ="botonUsuario"  disabled>
+            {{nuevoJuego.operadorSeleccionado}}
+        </button>
+        <button mat-button color="primary" class ="botonUsuario" disabled>
+            {{nuevoJuego.num2}}
+        </button>
+        <br>
+        <input type = "text" name= "resUsuario" class ="textoUsuario" [(ngModel)] ="nuevoJuego.resUsuario"/>
+        <br>
+        <button mat-raised-button  class ="otroBoton" (click)= "comparar()" >
+            Enviar
+        </button>
+        <br>
+        <button mat-raised-button  class ="otroBoton" (click)= "nuevoJuego.finalizar()" >
+            Finalizar
+        </button>
+        <br>
+        <button mat-raised-button  class ="otroBoton" (click)= "NuevoJuego()" >
+            Comenzar
+        </button>
+        
+        <div style="text-align: center" class = "texto">
+            {{nuevoJuego.comparacion}}
+            <br>    
+            Tiempo: {{reloj}} - Nivel: {{nuevoJuego.nivel}}
+            <br>
+            Puntos: {{nuevoJuego.puntos}}
+            <br>
+        </div>
+        
+        <!--{{res}} -->
+    </div>
+
+</body>
+
+
+
+<!--The content below is only a placeholder and can be replaced.-->
+<!--app-menu></app-menu-->
+<!-- index.html -->
+
+<!--
+<form name="juego">
+<ul>
+   <li>
+   Primer número: <input [(ngModel)]="nuevoJuego.numeroIngresado" placeholder="ingrese numero" name="numeroIngresado" type="text" class="form-control" style="width:50%" readonly/>
+  
+  </li>
+  <li>
+   Operador: <input [(ngModel)]="nuevoJuego.numeroIngresado" placeholder="ingrese numero" name="numeroIngresado" type="text" class="form-control" style="width:50%" readonly/>
+    
+  </li>
+  <li>
+   Segundo número: <input [(ngModel)]="nuevoJuego.numeroIngresado" placeholder="ingrese numero" name="numeroIngresado" type="text" class="form-control" style="width:50%" readonly/>
+    
+  </li>
+  <li>
+    Respuesta: <input [(ngModel)]="nuevoJuego.numeroIngresado" placeholder="ingrese numero" name="numeroIngresado" type="text" class="form-control" style="width:50%"/>
+     
+   </li>
+  <li>
+    <h2 [hidden]="ocultarVerificar" ><button (click)="verificar()" class="btn btn-success btn-lg">Verificar {{Tiempo}} </button></h2>
+  </li>
+  <li>
+    <h2 [hidden]="!ocultarVerificar"><button  (click)="NuevoJuego()"  class="btn btn-info btn-lg">Nuevo</button></h2>
+  </li>
+  <li>
+    <h2><p><i class="fa fa-spinner fa-spin"></i>Esperando numero...</p></h2>
+
+    <h3 [hidden]="!nuevoJuego.gano">usted adivino el número</h3>
+    <h3 [hidden]="nuevoJuego.gano">usted aún no gano </h3>
+  </li>
+</ul>
+
+</form>
+
+-->
+
+<!--
+<app-menu3>
+</app-menu3>
+-->
